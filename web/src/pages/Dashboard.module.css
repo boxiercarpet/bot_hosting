@@ -1,0 +1,66 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10vh;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 40px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    gap: 10px;
+}
+
+.buttons > div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.start {
+    background-color: rgb(30, 120, 30);
+}
+
+.restart {
+    background-color: rgb(60, 60, 200);
+}
+
+.stop {
+    background-color: rgb(120, 30, 30);
+}
+
+pre {
+    color: white;
+    border-radius: 10px;
+    border: 10px solid rgb(50, 50, 50);
+    background-color: rgb(30, 30, 40);
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    flex: 1 0;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
