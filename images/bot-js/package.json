@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@discordjs/core": "^0.5.2",
+    "discord.js": "^14.9.0"
+  }
+}
